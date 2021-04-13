@@ -31,6 +31,12 @@ p {
     padding: 160px 20px;
 }
 
+.hero-secondary {
+    background: var(--branding-color);
+    text-align: center;
+    padding: 80px 20px;
+}
+
 .hero h1 {
     font-family: var(--heading-font-family);
     font-weight: 500;
@@ -68,6 +74,11 @@ p {
     line-height: 20px;
     padding: 12px 20px;
 }
+
+.col-btn-align {
+        padding: 0;
+        text-align: center;
+    }
 
 @media (max-width: 768px) {
     .hero {
