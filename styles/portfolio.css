@@ -81,6 +81,16 @@ p {
         text-align: center;
     }
 
+.link {
+    color: #3D3B38;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .hero {
     padding: 100px 20px;
