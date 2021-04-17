@@ -91,6 +91,31 @@ p {
     text-decoration: none;
 }
 
+.footer {
+    margin: 60px 0;
+}
+
+.footer-links {
+text-decoration: none;
+text-align: center;
+font-size: 24px;
+padding: 10px;
+}
+
+.social {
+    padding: 20px 20px;
+    margin: 0px 20px;
+    color: var(--secondary-color);
+    background-color:var(--branding-color);
+    border-radius: 50%;
+    transition: ease-in-out;
+}
+
+.social:hover {
+    color: white;
+    background-color: #3D3B38;
+}
+
 @media (max-width: 768px) {
     .hero {
     padding: 100px 20px;
